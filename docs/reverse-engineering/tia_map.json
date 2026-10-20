@@ -1,0 +1,1302 @@
+{
+  "rom": "Pac-Man (1981) (Atari).a26",
+  "size": 4096,
+  "load": "$F000",
+  "reset": "$F000",
+  "nmi": "$0000",
+  "irq": "$0000",
+  "instructions": 1818,
+  "tia_writes": 161,
+  "subroutines": {
+    "$F053": [
+      "$F313",
+      "$F334",
+      "$F131",
+      "$F163",
+      "$F38C",
+      "$F392",
+      "$F067",
+      "$F2EE",
+      "$F2FC",
+      "$F19E",
+      "$F1D0"
+    ],
+    "$F067": [
+      "$F374",
+      "$F377",
+      "$F37A",
+      "$F2CD"
+    ],
+    "$F06A": [
+      "$F0E4",
+      "$F322",
+      "$F119",
+      "$F14E",
+      "$F1F4",
+      "$F38F",
+      "$F2F5",
+      "$F2FF",
+      "$F183",
+      "$F1BB"
+    ],
+    "$F3EE": [
+      "$F3D0",
+      "$F3DE"
+    ],
+    "$F483": [
+      "$F3AB"
+    ],
+    "$F793": [
+      "$F78A"
+    ],
+    "$F9AA": [
+      "$F954",
+      "$F957",
+      "$F95A"
+    ],
+    "$F9E5": [
+      "$F77B"
+    ],
+    "$F9EE": [
+      "$F78D"
+    ],
+    "$FA26": [
+      "$F9DB"
+    ],
+    "$FAFC": [
+      "$FADA",
+      "$FAE8"
+    ],
+    "$FB05": [
+      "$FAFF"
+    ],
+    "$FB19": [
+      "$FACC",
+      "$FAF6"
+    ],
+    "$FB22": [
+      "$FB1C"
+    ],
+    "$FB36": [
+      "$F7AF",
+      "$FAC9",
+      "$FACF",
+      "$FB07",
+      "$FB13",
+      "$FAB0"
+    ],
+    "$FB5C": [
+      "$F7B5",
+      "$FAF3",
+      "$FAF9",
+      "$FB0A",
+      "$FB10",
+      "$FAB6"
+    ],
+    "$FB70": [
+      "$F7A1",
+      "$FAE5",
+      "$FAEB",
+      "$FB24",
+      "$FB30",
+      "$FAA1"
+    ],
+    "$FB87": [
+      "$F7A7",
+      "$FAD7",
+      "$FADD",
+      "$FB27",
+      "$FB2D",
+      "$FAA7"
+    ],
+    "$FB9F": [
+      "$F8B7",
+      "$F52F"
+    ],
+    "$FBAD": [
+      "$F4EB",
+      "$F9D8"
+    ],
+    "$FBE0": [
+      "$FAC4",
+      "$FAD2",
+      "$FAE0",
+      "$FAEE",
+      "$FAFC",
+      "$FB19"
+    ],
+    "$FBF4": [
+      "$F018",
+      "$F8AB",
+      "$F8BA"
+    ],
+    "$FC0C": [
+      "$F6C8"
+    ],
+    "$FC21": [
+      "$F524"
+    ],
+    "$FC45": [
+      "$F57D",
+      "$F5C8",
+      "$F5F7",
+      "$F6A2"
+    ],
+    "$FC68": [
+      "$F497",
+      "$F4AA"
+    ],
+    "$FC7D": [
+      "$F894",
+      "$F8D8"
+    ],
+    "$FC8B": [
+      "$F970",
+      "$F97D"
+    ],
+    "$FD26": [
+      "$F74C"
+    ],
+    "$FD32": [
+      "$F756"
+    ],
+    "$FF43": [
+      "$F582",
+      "$F5CD",
+      "$F602",
+      "$F6A7"
+    ],
+    "$FF55": [
+      "$F7C9"
+    ],
+    "$FF94": [
+      "$F7CE"
+    ]
+  },
+  "audio": {
+    "AUDV0": [
+      {
+        "at": "$F7C5",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F8DB",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$FF9C",
+        "immediate": null,
+        "prev": [
+          "AND #$06",
+          "CLC",
+          "ADC #$04",
+          "STA $99"
+        ]
+      },
+      {
+        "at": "$FFCE",
+        "immediate": null,
+        "prev": [
+          "AND #$06",
+          "CLC",
+          "ADC #$04",
+          "STA $99"
+        ]
+      }
+    ],
+    "AUDV1": [
+      {
+        "at": "$F7C7",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F8DD",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$FFD0",
+        "immediate": null,
+        "prev": [
+          "AND #$06",
+          "CLC",
+          "ADC #$04",
+          "STA $99"
+        ]
+      }
+    ],
+    "AUDF0": [
+      {
+        "at": "$FF9F",
+        "immediate": null,
+        "prev": [
+          "AND #$06",
+          "CLC",
+          "ADC #$04",
+          "STA $99"
+        ]
+      },
+      {
+        "at": "$FFBF",
+        "immediate": null,
+        "prev": [
+          "AND #$06",
+          "CLC",
+          "ADC #$04",
+          "STA $99"
+        ]
+      }
+    ],
+    "AUDC0": [
+      {
+        "at": "$FFA3",
+        "immediate": null,
+        "prev": [
+          "AND #$06",
+          "CLC",
+          "ADC #$04",
+          "STA $99"
+        ]
+      },
+      {
+        "at": "$FFC8",
+        "immediate": null,
+        "prev": [
+          "AND #$06",
+          "CLC",
+          "ADC #$04",
+          "STA $99"
+        ]
+      }
+    ],
+    "AUDF1": [
+      {
+        "at": "$FFC4",
+        "immediate": null,
+        "prev": [
+          "AND #$06",
+          "CLC",
+          "ADC #$04",
+          "STA $99"
+        ]
+      }
+    ],
+    "AUDC1": [
+      {
+        "at": "$FFCA",
+        "immediate": null,
+        "prev": [
+          "AND #$06",
+          "CLC",
+          "ADC #$04",
+          "STA $99"
+        ]
+      }
+    ]
+  },
+  "graphics": {
+    "GRP1": [
+      {
+        "at": "$F064",
+        "immediate": null,
+        "prev": [
+          "LDA ($DF),Y",
+          "DEY",
+          "STY $DC",
+          "STA $02"
+        ]
+      },
+      {
+        "at": "$F105",
+        "immediate": null,
+        "prev": [
+          "STA $02",
+          "STA $1B",
+          "RTS",
+          "JSR $F053"
+        ]
+      },
+      {
+        "at": "$F21A",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F273",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F465",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F477",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F47B",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F487",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F48B",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      }
+    ],
+    "GRP0": [
+      {
+        "at": "$F07C",
+        "immediate": null,
+        "prev": [
+          "DEY",
+          "STY $DB",
+          "STA $02",
+          "JSR $F053"
+        ]
+      },
+      {
+        "at": "$F248",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F2B9",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F349",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F34D",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F372",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F45D",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F45F",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F469",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F479",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F47D",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F485",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F489",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      }
+    ],
+    "NUSIZ0": [
+      {
+        "at": "$F083",
+        "immediate": null,
+        "prev": [
+          "STA $02",
+          "STA $1B",
+          "RTS",
+          "JSR $F053"
+        ]
+      },
+      {
+        "at": "$F3A3",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F3E7",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      }
+    ],
+    "NUSIZ1": [
+      {
+        "at": "$F098",
+        "immediate": null,
+        "prev": [
+          "STA $02",
+          "STA $1B",
+          "RTS",
+          "JSR $F053"
+        ]
+      },
+      {
+        "at": "$F3A5",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F3E9",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      }
+    ],
+    "COLUBK": [
+      {
+        "at": "$F0D2",
+        "immediate": null,
+        "prev": [
+          "STA $02",
+          "STA $1B",
+          "RTS",
+          "JSR $F053"
+        ]
+      },
+      {
+        "at": "$F3C8",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F420",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F49E",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      }
+    ],
+    "CTRLPF": [
+      {
+        "at": "$F0DE",
+        "immediate": null,
+        "prev": [
+          "STA $02",
+          "STA $1B",
+          "RTS",
+          "JSR $F053"
+        ]
+      },
+      {
+        "at": "$F222",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F295",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F4BB",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F4DD",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      }
+    ],
+    "COLUPF": [
+      {
+        "at": "$F0E2",
+        "immediate": null,
+        "prev": [
+          "STA $02",
+          "STA $1B",
+          "RTS",
+          "JSR $F053"
+        ]
+      },
+      {
+        "at": "$F4DF",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      }
+    ],
+    "PF0": [
+      {
+        "at": "$F0E9",
+        "immediate": null,
+        "prev": [
+          "STA $02",
+          "STA $1B",
+          "RTS",
+          "JSR $F053"
+        ]
+      },
+      {
+        "at": "$F21E",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F22F",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F24C",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F25A",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F28C",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F307",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F352",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F37F",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F39B",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F4BF",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F4CE",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F4E1",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      }
+    ],
+    "PF1": [
+      {
+        "at": "$F0EB",
+        "immediate": null,
+        "prev": [
+          "STA $02",
+          "STA $1B",
+          "RTS",
+          "JSR $F053"
+        ]
+      },
+      {
+        "at": "$F1E7",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F226",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F237",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F250",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F262",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F27A",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F291",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F30C",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F357",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F381",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F39D",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F4C3",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F4D2",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F4E3",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      }
+    ],
+    "PF2": [
+      {
+        "at": "$F0EF",
+        "immediate": null,
+        "prev": [
+          "STA $02",
+          "STA $1B",
+          "RTS",
+          "JSR $F053"
+        ]
+      },
+      {
+        "at": "$F1ED",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F22A",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F23F",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F254",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F26A",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F280",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F299",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F311",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F35B",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F385",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F39F",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F4C7",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F4D6",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F4E5",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      }
+    ],
+    "ENAM0": [
+      {
+        "at": "$F11E",
+        "immediate": null,
+        "prev": [
+          "STA $02",
+          "STA $1B",
+          "RTS",
+          "JSR $F053"
+        ]
+      },
+      {
+        "at": "$F188",
+        "immediate": 0,
+        "prev": [
+          "LDA $FD7B,Y",
+          "STA $D4",
+          "JSR $F06A",
+          "LDA #$00"
+        ]
+      },
+      {
+        "at": "$F2FA",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      }
+    ],
+    "ENABL": [
+      {
+        "at": "$F18C",
+        "immediate": 0,
+        "prev": [
+          "JSR $F06A",
+          "LDA #$00",
+          "STA $1D",
+          "LDA $E1"
+        ]
+      },
+      {
+        "at": "$F2F3",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      }
+    ],
+    "ENAM1": [
+      {
+        "at": "$F1D5",
+        "immediate": null,
+        "prev": [
+          "LDA $FD83,Y",
+          "STA $D6",
+          "JSR $F053",
+          "LDA $E1"
+        ]
+      },
+      {
+        "at": "$F2BD",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      }
+    ],
+    "COLUP1": [
+      {
+        "at": "$F3B0",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F4B1",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F9A1",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      }
+    ],
+    "COLUP0": [
+      {
+        "at": "$F3B2",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F4B5",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      },
+      {
+        "at": "$F9A5",
+        "immediate": null,
+        "prev": [
+          "TAY",
+          "LDA $FD47,Y",
+          "STA $D5",
+          "JMP $F1F4"
+        ]
+      }
+    ]
+  }
+}

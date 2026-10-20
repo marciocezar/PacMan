@@ -1,0 +1,15 @@
+{
+  "clockHz": 31440,
+  "crystal": "3.579545 MHz / 114",
+  "pellet": { "audc": 9, "audf": 9, "audv": "timer 9→1", "frames": 9, "mask": 7, "bit": 8 },
+  "power": { "audc": 13, "audf": 13, "audv": 13, "frames": 16, "mask": 1, "bit": 2 },
+  "eatGhost": { "audc": 4, "audf": "timer & 31", "audv": "(freq xor 15) & 15", "frames": 48, "mask": 0, "bit": 1 },
+  "jingleFrames": 60,
+  "jingleAudc": 4,
+  "jingleVolume": 8,
+  "jingleF0": [8, 4, 12, 4],
+  "jingleF1": [20, 24, 20, 24],
+  "siren": { "audc": 4, "audf": "(frame >> 1) & 15", "audv": "((audf xor 15) >> 1)", "timer": 160 },
+  "death": { "audc": 4, "audf": "timer >> 1", "audv": "timer & 15", "timer": 63 },
+  "note": "A sirene só existe enquanto a pastilha de poder vale. A ROM não tem sirene contínua."
+}

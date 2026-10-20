@@ -1,0 +1,9 @@
+node_modules/
+dist/
+builds/web/
+builds/desktop/
+builds/android/
+builds/ios/
+.DS_Store
+*.log
+.vite/

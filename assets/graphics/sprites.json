@@ -1,0 +1,13 @@
+{
+  "source": "Pac-Man (1981) (Atari).a26 página $FD. Bytes de baixo para cima.",
+  "ghostFrames": [
+    [170, 255, 255, 255, 153, 221, 126, 60],
+    [85, 255, 255, 255, 153, 187, 126, 60],
+    [170, 255, 255, 255, 187, 153, 126, 60],
+    [85, 255, 255, 255, 221, 153, 126, 60]
+  ],
+  "addresses": ["$FD8B", "$FD93", "$FD9B", "$FDA3"],
+  "eyesOnly": [0, 231, 165, 231, 0, 0, 0, 0],
+  "eyesAddress": "$FDC6",
+  "note": "O Pac-Man da ROM não é um bitmap isolado. O disco 8×8 vive em src/systems/sprites.ts."
+}
